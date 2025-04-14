@@ -1,0 +1,17 @@
+{
+  "name": "refresh-site-cookies",
+  "version": "1.0.0",
+  "description": "Chrome extension that removes all cookies for the current site and refreshes the page",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && zip -r dist/refresh-site-cookies.zip manifest.json popup.html popup.js styles.css icons/ README.md"
+  },
+  "keywords": [
+    "chrome-extension",
+    "cookies",
+    "privacy"
+  ],
+  "author": "",
+  "license": "MIT"
+}
