@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Refresh Site Cookies",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Removes all cookies for the current site and refreshes the page",
   "permissions": ["cookies", "activeTab"],
-  "host_permissions": ["<all_urls>"],
+  "host_permissions": ["*://*/*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
